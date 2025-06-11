@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascaria Chapéu de Palha</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Churrascaria Chapéu de Palha</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reserva">Reservar</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Rodízio Premium & Experiência Interativa</h1>
+        <p>Viva uma nova forma de churrasco!</p>
+    </section>
+
+    <section id="sobre" class="secao">
+        <h2>Sobre Nós</h2>
+        <p>A Churrascaria Chapéu de Palha combina tradição e inovação, oferecendo um rodízio premium com carnes nobres e uma experiência interativa, onde os clientes participam do preparo do churrasco. Nosso ambiente acolhedor é ideal para famílias, amigos e eventos especiais, proporcionando momentos únicos e inesquecíveis. Com atendimento especializado e cortes selecionados, garantimos sabor, qualidade e exclusividade.  
+Seja para celebrar ou desfrutar de uma refeição diferenciada, somos o destino certo para quem busca excelência gastronômica.</p>
+    </section>
+
+    <section id="menu" class="secao">
+        <h2>Nossos Cortes Nobres</h2>
+        <p>Experimente carnes selecionadas e acompanhamentos exclusivos.</p>
+    </section>
+
+    <section id="reserva" class="secao">
+        <h2>Faça Sua Reserva</h2>
+        <div class="reserva-container">
+            <form id="formReserva">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data" required>
+
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" name="hora" required>
+
+                <label for="pessoas">Número de Pessoas:</label>
+                <input type="number" id="pessoas" name="pessoas" min="1" required>
+
+                <button type="submit">Reservar</button>
+            </form>
+            <p id="mensagemReserva"></p>
+        </div>
+    </section>
+
+    <section id="contato" class="secao">
+        <h2>Contato</h2>
+        <p>Email: @churrascariachapeudepalha.com.br</p>
+        <p>Telefone: (11) 1234-5678</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Churrascaria Chapéu de Palha - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
